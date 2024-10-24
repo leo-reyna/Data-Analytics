@@ -8,3 +8,4 @@ To start the project, I uploaded all the CSV files into Power BI and used the Po
 
 ## Data Model Creation
 
+![My Picture](./Images/datamodelmaven.png)
