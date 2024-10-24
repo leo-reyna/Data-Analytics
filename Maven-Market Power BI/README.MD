@@ -8,4 +8,8 @@ To start the project, I uploaded all the CSV files into Power BI and used the Po
 
 ## Data Model Creation
 
+In the Relationships view, I established connections between the transaction data and the customers, products, and stores lookup tables using primary and foreign keys. I linked the transaction data to the calendar lookup table through both active and inactive relationships. For the return data, I connected it to the products, calendar, and stores tables using primary and foreign keys, and organized the stores data with the regions lookup table in a snowflake schema.
+
+After connecting all the tables, I ensured that the relationships were properly set as one-to-many, with filters flowing downstream from the lookup tables to the primary data table. I also verified that all connections were made through shared lookup tables, avoiding any direct links between the data tables themselves.
+
 ![My Picture](./Images/datamodelmaven.png)
